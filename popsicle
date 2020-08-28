@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import argparse, json
 
 parser = argparse.ArgumentParser()
@@ -7,7 +7,7 @@ parser.add_argument('-n', '--name', help='task name')
 parser.add_argument('-d', '--desc', help='task description')
 parser.add_argument('-a', '--all', action='store_true', help='show all including finished tasks')
 args = parser.parse_args()
-#db={}
+db={}
 
 try:
     with open('db', 'r') as db_file:
