@@ -1,3 +1,7 @@
-# README
+# Popsicle To Do
 
-plan it here
+Instructions
+```
+sudo chmod -x popsicle
+./popsicle -h
+```
