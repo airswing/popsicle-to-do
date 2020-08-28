@@ -2,6 +2,6 @@
 
 Instructions
 ```
-sudo chmod -x popsicle
+sudo chmod +x popsicle
 ./popsicle -h
 ```
